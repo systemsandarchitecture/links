@@ -1,0 +1,16 @@
+.navbar {
+  background-color: $primary-color;
+  border-bottom: none;
+  @include box-shadow-bottom();
+  .navbar-title {
+    color: $white;
+    font-size: 22px;
+    font-weight: 900;
+    @include small-phone {
+      font-size: 20px;
+    }
+    @include tablet-min {
+      font-size: 36px;
+    }
+  }
+}

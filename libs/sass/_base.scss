@@ -1,0 +1,11 @@
+html, body {
+  font-family: $primary-font;
+  font-size: 18px;
+  font-weight: 200;
+}
+.content {
+  padding: 0 12px;
+  @include tablet-min {
+    padding: 0 24px;
+  }
+}

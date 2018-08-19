@@ -1,0 +1,45 @@
+#links {
+  .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 12px;
+    @include tablet-min {
+      grid-column-gap: 12px;
+    }
+    @include laptop-min {
+      grid-template-columns: repeat(6, 1fr);
+      grid-row-gap: 24px;
+    }
+    @include desktop-min {
+      grid-template-columns: repeat(8, 1fr);
+      grid-row-gap: 48px;
+    }
+  }
+  .item {
+    border-radius: 6px;
+    padding: 6px 0;
+    transition: all .4s;
+    &:hover, &:focus, &:active {
+      transform: scale(1.05);
+      @include box-shadow-bottom();
+    }
+  }
+  .item-image {
+    margin: 0 auto 6px;
+    max-height: 60px;
+    @include small-phone {
+      max-height: 48px;
+    }
+    @include tablet-min {
+      max-height: 72px;
+    }
+  }
+  .item-name {
+    color: $primary-color-darker;
+    font-size: 14px;
+    text-align: center;
+    @include tablet-min {
+      font-size: 16px;
+    }
+  }
+}

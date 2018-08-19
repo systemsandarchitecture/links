@@ -1,0 +1,282 @@
+[
+  {
+    "category": "business",
+    "items": [
+      {
+        "name": "My Business",
+        "image": "google-my-business",
+        "url": "https://business.google.com/"
+      },
+      {
+        "name": "Thumbtack",
+        "image": "thumbtack",
+        "url": "https://thumbtack.com/"
+      },
+      {
+        "name": "Wave",
+        "image": "wave",
+        "url": "https://www.waveapps.com/"
+      },
+      {
+        "name": "Yelp Business",
+        "image": "yelp-for-business",
+        "url": "https://biz.yelp.com/"
+      }
+    ]
+  },
+  {
+    "category": "cloud",
+    "items": [
+      {
+        "name": "Drive",
+        "image": "google-drive",
+        "url": "https://drive.google.com/"
+      },
+      {
+        "name": "OneDrive",
+        "image": "onedrive",
+        "url": "https://onedrive.live.com/"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "items": [
+      {
+        "name": "Messages",
+        "image": "android-messages",
+        "url": "https://messages.android.com/"
+      },
+      {
+        "name": "Messenger",
+        "image": "messenger",
+        "url": "https://messenger.com/"
+      },
+      {
+        "name": "Whatsapp",
+        "image": "whatsapp",
+        "url": "https://web.whatsapp.com/"
+      }
+    ]
+  },
+  {
+    "category": "email",
+    "items": [
+      {
+        "name": "Gmail",
+        "image": "gmail",
+        "url": "https://gmail.com/"
+      },
+      {
+        "name": "Outlook",
+        "image": "outlook",
+        "url": "https://outlook.live.com/"
+      },
+      {
+        "name": "Yahoo Mail",
+        "image": "yahoo-mail",
+        "url": "https://mail.yahoo.com/"
+      },
+      {
+        "name": "Zoho Mail",
+        "image": "zoho-mail",
+        "url": "https://mail.zoho.com/"
+      }
+    ]
+  },
+  {
+    "category": "entertainment",
+    "items": [
+      {
+        "name": "YouTube",
+        "image": "youtube",
+        "url": "https://youtube.com/"
+      }
+    ]
+  },
+  {
+    "category": "finances",
+    "items": [
+      {
+        "name": "Chase",
+        "image": "chase",
+        "url": "https://chase.com/"
+      },
+      {
+        "name": "PayPal",
+        "image": "paypal",
+        "url": "https://paypal.com/"
+      }
+    ]
+  },
+  {
+    "category": "hosting",
+    "items": [
+      {
+        "name": "AWS",
+        "image": "aws",
+        "url": "https://console.aws.amazon.com/console/"
+      },
+      {
+        "name": "Firebase",
+        "image": "firebase",
+        "url": "https://console.firebase.google.com/"
+      }
+    ]
+  },
+  {
+    "category": "marketing",
+    "items": [
+      {
+        "name": "MailChimp",
+        "image": "mailchimp",
+        "url": "https://mailchimp.com/"
+      }
+    ]
+  },
+  {
+    "category": "others",
+    "items": [
+      {
+        "name": "SysandArc",
+        "image": "sysandarc",
+        "url": "https://sysandarc.com/"
+      },
+      {
+        "name": "Gateway",
+        "image": "netgear",
+        "url": "http://192.168.1.100/"
+      },
+      {
+        "name": "Production",
+        "image": "sysandarc",
+        "url": "http://192.168.1.101/"
+      },
+      {
+        "name": "Webpack",
+        "image": "webpack",
+        "url": "http://192.168.1.101:3000/"
+      },
+      {
+        "name": "SrgdppSrvr",
+        "image": "sysandarc",
+        "url": "http://192.168.1.200/"
+      }
+    ]
+  },
+  {
+    "category": "photography",
+    "items": [
+      {
+        "name": "Photos",
+        "image": "google-photos",
+        "url": "https://photos.google.com/"
+      }
+    ]
+  },
+  {
+    "category": "productivity",
+    "items": [
+      {
+        "name": "Keep",
+        "image": "google-keep",
+        "url": "https://keep.google.com/"
+      },
+      {
+        "name": "Todoist",
+        "image": "todoist",
+        "url": "https://todoist.com/"
+      }
+    ]
+  },
+  {
+    "category": "search",
+    "items": [
+      {
+        "name": "Bing",
+        "image": "bing",
+        "url": "https://bing.com/"
+      },
+      {
+        "name": "Google",
+        "image": "google",
+        "url": "https://google.com/"
+      }
+    ]
+  },
+  {
+    "category": "shopping",
+    "items": [
+      {
+        "name": "Amazon",
+        "image": "amazon",
+        "url": "https://amazon.com/"
+      },
+      {
+        "name": "eBay",
+        "image": "ebay",
+        "url": "https://ebay.com/"
+      }
+    ]
+  },
+  {
+    "category": "social",
+    "items": [
+      {
+        "name": "Facebook",
+        "image": "facebook",
+        "url": "https://facebook.com/sysandarc/"
+      },
+      {
+        "name": "Instagram",
+        "image": "instagram",
+        "url": "https://instagram.com/sysandarc/"
+      },
+      {
+        "name": "Twitter",
+        "image": "twitter",
+        "url": "https://twitter.com/sysandarc/"
+      },
+      {
+        "name": "Yelp",
+        "image": "yelp",
+        "url": "https://yelp.com/"
+      }
+    ]
+  },
+  {
+    "category": "tech",
+    "items": [
+      {
+        "name": "GitHub",
+        "image": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "CodePen",
+        "image": "codepen",
+        "url": "https://codepen.io/"
+      }
+    ]
+  },
+  {
+    "category": "tools",
+    "items": [
+      {
+        "name": "Maps",
+        "image": "google-maps",
+        "url": "https://maps.google.com/"
+      },
+      {
+        "name": "Search Console",
+        "image": "google-search-console",
+        "url": "https://www.google.com/webmasters/tools/"
+      },
+      {
+        "name": "Translate",
+        "image": "google-translate",
+        "url": "https://translate.google.com/"
+      }
+    ]
+  }
+]

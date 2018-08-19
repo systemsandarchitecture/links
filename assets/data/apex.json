@@ -1,0 +1,232 @@
+[
+  {
+    "category": "others",
+    "items": [
+      {
+        "name": "Website",
+        "image": "apex-furniture-refinishing",
+        "url": "http://atlantafurniturerefinishing.com/"
+      },
+      {
+        "name": "Wordpress",
+        "image": "wordpress",
+        "url": "http://atlantafurniturerefinishing.com/wp-admin/"
+      },
+      {
+        "name": "IPOWER",
+        "image": "ipower",
+        "url": "https://secure.ipower.com/secure/login.bml"
+      }
+    ]
+  },
+  {
+    "category": "email",
+    "items": [
+      {
+        "name": "Email",
+        "image": "roundcube",
+        "url": "https://secure.ipower.com/secure/login.bml#webmail"
+      },
+      {
+        "name": "Yahoo Mail",
+        "image": "yahoo-mail",
+        "url": "https://mail.yahoo.com/"
+      }
+    ]
+  },
+  {
+    "category": "social",
+    "items": [
+      {
+        "name": "Google",
+        "image": "google",
+        "url": "https://www.google.com/search?ludocid=14974994377217055828&q=Apex%20Furniture%20Refinishing%20633%20Lawrence%20Street%20Northeast%20Marietta%2C%20Georgia%2030060-2141&_ga=2.260190084.802900619.1530313902-2109714517.1515176305"
+      },
+      {
+        "name": "Yelp",
+        "image": "yelp",
+        "url": "https://yelp.com/biz/apex-furniture-refinishing-marietta"
+      },
+      {
+        "name": "Angie's List",
+        "image": "angies-list",
+        "url": "https://www.angieslist.com/companylist/us/ga/marietta/apex-furniture-refinishing-reviews-6607723.htm"
+      },
+      {
+        "name": "BBB",
+        "image": "bbb",
+        "url": "https://www.bbb.org/atlanta/business-reviews/furniture-repair-and-refinish/apex-furniture-refinishing-in-marietta-ga-27288365"
+      },
+      {
+        "name": "Facebook",
+        "image": "facebook",
+        "url": "https://fb.me/ApexFurnitureRefinishing/"
+      }
+    ]
+  },
+  {
+    "category": "tools",
+    "items": [
+      {
+        "name": "Google Maps",
+        "image": "google-maps",
+        "url": "https://goo.gl/maps/uQvc7zuPQg62"
+      }
+    ]
+  },
+  {
+    "category": "cloud",
+    "items": [
+      {
+        "name": "Dropbox",
+        "image": "dropbox",
+        "url": "https://dropbox.com/"
+      },
+      {
+        "name": "Drive",
+        "image": "google-drive",
+        "url": "https://drive.google.com/"
+      },
+      {
+        "name": "OneDrive",
+        "image": "onedrive",
+        "url": "https://onedrive.live.com/"
+      }
+    ]
+  },
+  {
+    "category": "communication",
+    "items": [
+      {
+        "name": "Messages",
+        "image": "android-messages",
+        "url": "https://messages.android.com/"
+      },
+      {
+        "name": "Messenger",
+        "image": "messenger",
+        "url": "https://messenger.com/"
+      },
+      {
+        "name": "Skype",
+        "image": "skype",
+        "url": "https://web.skype.com/"
+      },
+      {
+        "name": "Whatsapp",
+        "image": "whatsapp",
+        "url": "https://web.whatsapp.com/"
+      }
+    ]
+  },
+  {
+    "category": "education",
+    "items": [
+      {
+        "name": "Duolingo",
+        "image": "duolingo",
+        "url": "https://duolingo.com/"
+      },
+      {
+        "name": "edX",
+        "image": "edx",
+        "url": "https://edx.org/"
+      }
+    ]
+  },
+  {
+    "category": "entertainment",
+    "items": [
+      {
+        "name": "Netflix",
+        "image": "netflix",
+        "url": "https://netflix.com/"
+      },
+      {
+        "name": "YouTube",
+        "image": "youtube",
+        "url": "https://youtube.com/"
+      }
+    ]
+  },
+  {
+    "category": "music",
+    "items": [
+      {
+        "name": "Pandora",
+        "image": "pandora",
+        "url": "https://pandora.com/"
+      },
+      {
+        "name": "SoundCloud",
+        "image": "soundcloud",
+        "url": "https://soundcloud.com/"
+      },
+      {
+        "name": "Spotify",
+        "image": "spotify",
+        "url": "https://spotify.com/"
+      }
+    ]
+  },
+  {
+    "category": "photography",
+    "items": [
+      {
+        "name": "Photos",
+        "image": "google-photos",
+        "url": "https://photos.google.com/"
+      }
+    ]
+  },
+  {
+    "category": "reference",
+    "items": [
+      {
+        "name": "Wikipedia",
+        "image": "wikipedia",
+        "url": "https://wikipedia.org/"
+      }
+    ]
+  },
+  {
+    "category": "search",
+    "items": [
+      {
+        "name": "Bing",
+        "image": "bing",
+        "url": "https://bing.com/"
+      },
+      {
+        "name": "Yahoo",
+        "image": "yahoo",
+        "url": "https://yahoo.com/"
+      }
+    ]
+  },
+  {
+    "category": "shopping",
+    "items": [
+      {
+        "name": "Amazon",
+        "image": "amazon",
+        "url": "https://amazon.com/"
+      },
+      {
+        "name": "eBay",
+        "image": "ebay",
+        "url": "https://ebay.com/"
+      }
+    ]
+  },
+  {
+    "category": "tools",
+    "items": [
+      {
+        "name": "Translate",
+        "image": "google-translate",
+        "url": "https://translate.google.com/"
+      }
+    ]
+  }
+]

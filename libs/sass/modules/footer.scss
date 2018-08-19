@@ -1,0 +1,16 @@
+#footer {
+  font-size: 14px;
+  padding: 0 0 72px;
+  text-align: center;
+  hr {
+    border: none;
+    border-bottom: 1px solid #eee;
+    margin: 0 18% 12px;
+  }
+  p {
+    line-height: 1.2;
+  }
+  a {
+    color: $black;
+  }
+}
