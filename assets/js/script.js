@@ -1,1 +1,158 @@
-!function(n){function e(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return n[r].call(o.exports,o,o.exports,e),o.l=!0,o.exports}var t={};e.m=n,e.c=t,e.d=function(n,t,r){e.o(n,t)||Object.defineProperty(n,t,{configurable:!1,enumerable:!0,get:r})},e.n=function(n){var t=n&&n.__esModule?function(){return n.default}:function(){return n};return e.d(t,"a",t),t},e.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},e.p="",e(e.s=0)}([function(n,e,t){"use strict";t(1),t(2),t(3)},function(n,e){},function(n,e,t){"use strict";function r(n){var e="";for(var t in n){var r=n[t].category,o=n[t].items;for(var i in o)e+='\n        <div class="item">\n          <a href="'+o[i].url+'" target="_blank" rel="noopener">\n            <img src="./assets/images/'+r+"/"+o[i].image+'.png" alt="'+o[i].name+'" class="item-image">\n            <p class="item-name">'+o[i].name+"</p>\n          </a>\n        </div>\n      "}a.innerHTML=e}var o=document.querySelector("#links");o&&(o.innerHTML='\n  <div class="container">\n    <div class="row">\n      <div class="content">\n        <div class="links"></div>\n      </div>\n    </div>\n  </div>\n');var a=document.querySelector(".links"),i="./assets/data/links.json";!function(){fetch(i).then(function(n){return n.json()}).then(function(n){r(n)})}()},function(n,e,t){"use strict";var r=document.querySelector("#footer");r&&(r.innerHTML='\n  <div class="container">\n    <div class="row">\n      <div class="content">\n        <hr>\n        <div class="footer-bottom">\n          <p>&copy; <span id="year"></span> <a href="https://sysandarc.com/" target="_blank" rel="noopener">Systems & Architecture LLC</a></p>\n          <p>All other trademarks or registered trademarks are property of their respective owners.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n');var o=new Date;document.querySelector("#year").textContent=o.getFullYear()}]);
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(1);
+
+__webpack_require__(2);
+
+__webpack_require__(3);
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// links
+var links = document.querySelector('#links');
+
+// links structure
+var linksStructure = '\n  <div class="container">\n    <div class="row">\n      <div class="content">\n        <div class="links"></div>\n      </div>\n    </div>\n  </div>\n';
+
+if (links) {
+  links.innerHTML = linksStructure;
+}
+
+// links class
+var linksClass = document.querySelector('.links');
+
+// data url
+var dataUrl = './assets/data/links.json';
+
+// getting data
+function getData() {
+  fetch(dataUrl).then(function (response) {
+    return response.json();
+  }).then(function (data) {
+    displayData(data);
+  });
+}
+getData();
+
+// displaying data
+function displayData(linksData) {
+
+  var linksItems = '';
+
+  for (var i in linksData) {
+
+    var category = linksData[i].category;
+    var items = linksData[i].items;
+
+    for (var j in items) {
+
+      linksItems += '\n        <div class="item">\n          <a href="' + items[j].url + '" target="_blank" rel="noopener">\n            <img src="./assets/images/' + category + '/' + items[j].image + '.png" alt="' + items[j].name + '" class="item-image">\n            <p class="item-name">' + items[j].name + '</p>\n          </a>\n        </div>\n      ';
+    }
+  }
+  linksClass.innerHTML = linksItems;
+}
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// footer
+var footer = document.querySelector('#footer');
+
+// footer structure
+var footerStructure = '\n  <div class="container">\n    <div class="row">\n      <div class="content">\n        <hr>\n        <div class="footer-bottom">\n          <p>&copy; <span id="year"></span> <a href="https://sysandarc.com/" target="_blank" rel="noopener">Systems & Architecture LLC</a></p>\n          <p>All other trademarks or registered trademarks are property of their respective owners.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n';
+
+if (footer) {
+  footer.innerHTML = footerStructure;
+}
+
+// year
+var year = new Date();
+document.querySelector('#year').textContent = year.getFullYear();
+
+/***/ })
+/******/ ]);
