@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <script>
+    function getHead() {
+      fetch('./head.html')
+      .then(function(response) {
+        return response.text();
+      }).then(function(data) {
+        document.head.innerHTML = data;
+      })
+    }
+    getHead();
+  </script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-top">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- nav -->
+          <div class="nav">
+            <!-- navbar-header -->
+            <div class="navbar-header">
+              <!-- navbar-brand -->
+              <a href="#" class="navbar-brand">
+                <!-- navbar-image -->
+                <!-- navbar-image -->
+                <!-- navbar-title -->
+                <h1 class="navbar-title"></h1>
+                <!-- navbar-title -->
+              </a>
+              <!-- navbar-brand -->
+              <!-- navbar-icon -->
+              <!-- navbar-icon -->
+            </div>
+            <!-- navbar-header -->
+            <!-- navbar-menu -->
+            <!-- navbar-menu -->
+          </div>
+          <!-- nav -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </nav>
+    <!-- navbar -->
+  </header>
+  <!-- header -->
+
+  <!-- links -->
+  <section class="basic-page" id="links"></section>
+  <!-- links -->
+
+  <!-- footer -->
+  <section id="footer"></section>
+  <!-- footer -->
+
+  <!-- scripts -->
+  <!-- service worker -->
+  <!-- basic -->
+  <!-- custom scripts -->
+  <script>
+    // navbar title
+    const navbarTitle = "DSJGA Ventures Inc";
+    document.querySelector('.navbar-title').textContent = navbarTitle;
+
+    // data url
+    const dataUrl = '../assets/data/dsjga.json';
+    
+    // links
+    const links = document.querySelector('#links');
+
+    // links structure
+    const linksStructure = `
+      <div class="container">
+        <div class="row">
+          <div class="content">
+            <div class="links"></div>
+          </div>
+        </div>
+      </div>
+    `;
+    
+    if (links) {
+      links.innerHTML = linksStructure;
+    }
+
+    // links class
+    const linksClass = document.querySelector('.links');
+
+    // getting data
+    function getData() {
+      fetch(dataUrl)
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+        displayData(data);
+      })
+    }
+    getData();
+
+    // displaying data
+    function displayData(linksData) {
+
+      let linksItems = '';
+
+      for (let i in linksData) {
+
+        let category = linksData[i].category;
+        let items = linksData[i].items;
+
+        for (let j in items) {
+
+          linksItems += `
+            <div class="item">
+              <a href="${items[j].url}" target="_blank" rel="noopener">
+                <img src="../assets/images/${category}/${items[j].image}.png" alt="${items[j].name}" class="item-image">
+                <p class="item-name">${items[j].name}</p>
+              </a>
+            </div>
+          `;
+        }
+      }
+      linksClass.innerHTML = linksItems;
+    }
+    // footer
+    const footer = document.querySelector('#footer');
+
+    // footer structure
+    const footerStructure = `
+      <div class="container">
+        <div class="row">
+          <div class="content">
+            <hr>
+            <div class="footer-bottom">
+              <p>&copy; <span id="year"></span> <a href="https://sysandarc.com/" target="_blank" rel="noopener">Systems & Architecture LLC</a></p>
+              <p>All other trademarks or registered trademarks are property of their respective owners.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    if (footer) {
+      footer.innerHTML = footerStructure;
+    }
+
+    // year
+    const year = new Date();
+    document.querySelector('#year').textContent = year.getFullYear();
+  </script>
+</body>
+</html>
