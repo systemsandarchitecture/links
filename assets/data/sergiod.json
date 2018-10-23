@@ -3,9 +3,9 @@
     "category": "business",
     "items": [
       {
-        "name": "Yelp",
-        "image": "yelp-for-business",
-        "url": "https://biz.yelp.com/"
+        "name": "Wave",
+        "image": "wave",
+        "url": "https://my.waveapps.com/"
       }
     ]
   },
@@ -27,6 +27,11 @@
   {
     "category": "communication",
     "items": [
+      {
+        "name": "Messages",
+        "image": "android-messages",
+        "url": "https://messages.android.com/"
+      },
       {
         "name": "Messenger",
         "image": "messenger",
@@ -56,11 +61,6 @@
         "name": "Yahoo Mail",
         "image": "yahoo-mail",
         "url": "https://mail.yahoo.com/"
-      },
-      {
-        "name": "Zoho Mail",
-        "image": "zoho-mail",
-        "url": "https://mail.zoho.com/"
       }
     ]
   },
@@ -68,19 +68,29 @@
     "category": "entertainment",
     "items": [
       {
+        "name": "Netflix",
+        "image": "netflix",
+        "url": "https://netflix.com/"
+      },
+      {
         "name": "YouTube",
         "image": "youtube",
-        "url": "https://www.youtube.com/channel/UCkHBIwlEGf5mzpDcdEiQ4ig"
+        "url": "https://youtube.com/"
       }
     ]
   },
   {
-    "category": "marketing",
+    "category": "finances",
     "items": [
       {
-        "name": "MailChimp",
-        "image": "mailchimp",
-        "url": "https://mailchimp.com/"
+        "name": "BofA",
+        "image": "bank-of-america",
+        "url": "https://bankofamerica.com/"
+      },
+      {
+        "name": "PayPal",
+        "image": "paypal",
+        "url": "https://paypal.com/"
       }
     ]
   },
@@ -88,9 +98,24 @@
     "category": "others",
     "items": [
       {
-        "name": "Tripoli",
-        "image": "tripoli",
-        "url": "https://tripolihalalmeat.com/"
+        "name": "SysandArc",
+        "image": "sysandarc",
+        "url": "https://sysandarc.com/"
+      },
+      {
+        "name": "Gateway",
+        "image": "netgear",
+        "url": "http://192.168.1.100/"
+      },
+      {
+        "name": "Production",
+        "image": "sysandarc",
+        "url": "http://192.168.1.101/"
+      },
+      {
+        "name": "SrgdppSrvr",
+        "image": "sysandarc",
+        "url": "http://192.168.1.200/"
       }
     ]
   },
@@ -111,6 +136,16 @@
         "name": "Keep",
         "image": "google-keep",
         "url": "https://keep.google.com/"
+      }
+    ]
+  },
+  {
+    "category": "reference",
+    "items": [
+      {
+        "name": "Wikipedia",
+        "image": "wikipedia",
+        "url": "https://wikipedia.org/"
       }
     ]
   },
@@ -155,17 +190,32 @@
       {
         "name": "Facebook",
         "image": "facebook",
-        "url": "https://facebook.com/realtripolihalalmeat/"
+        "url": "https://facebook.com/"
       },
       {
         "name": "Instagram",
         "image": "instagram",
-        "url": "https://instagram.com/tripolihalalmeat/"
+        "url": "https://instagram.com/"
       },
       {
-        "name": "Yelp",
-        "image": "yelp",
-        "url": "https://yelp.com/biz/tripoli-halal-meat-marietta/"
+        "name": "Twitter",
+        "image": "twitter",
+        "url": "https://twitter.com/"
+      }
+    ]
+  },
+  {
+    "category": "tech",
+    "items": [
+      {
+        "name": "GitHub",
+        "image": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "CodePen",
+        "image": "codepen",
+        "url": "https://codepen.io/"
       }
     ]
   },
