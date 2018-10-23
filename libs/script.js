@@ -1,4 +1,4 @@
-import '../sass/style.scss';
+import './style.scss';
 
 import './modules/links';
 import './modules/footer';
