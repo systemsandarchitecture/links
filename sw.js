@@ -364,18 +364,6 @@ self.__precacheManifest = [
     "revision": "7e78a46b4d8ef321869674e176afa0f7"
   },
   {
-    "url": "libs/modules/footer.js",
-    "revision": "ccf4680718a0535e4373fe256291b431"
-  },
-  {
-    "url": "libs/modules/links.js",
-    "revision": "bc9e72c6c865bd3991ca2baa20ae3199"
-  },
-  {
-    "url": "libs/script.js",
-    "revision": "4c273c8d3defa299d1091114a1c0154c"
-  },
-  {
     "url": "manifest.json",
     "revision": "a0f171aa7324a5d9a6440bc895df9039"
   },
