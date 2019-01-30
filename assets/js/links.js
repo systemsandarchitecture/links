@@ -50,7 +50,7 @@ export function links(path, link) {
           linksItem += `
             <div class="item">
               <a href="${items[j].url}" target="_blank" rel="noopener">
-                <img src="../assets/images/${category}/${items[j].image}.png" alt="${items[j].name}" class="item-image">
+                <img src="${path}/assets/images/${category}/${items[j].image}.png" alt="${items[j].name}" class="item-image">
                 <p class="item-name">${items[j].name}</p>
               </a>
             </div>
