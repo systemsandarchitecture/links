@@ -38,21 +38,6 @@
     "category": "social",
     "items": [
       {
-        "name": "Google",
-        "image": "google",
-        "url": "https://www.google.com/search?ludocid=14974994377217055828&q=Apex%20Furniture%20Refinishing%20633%20Lawrence%20Street%20Northeast%20Marietta%2C%20Georgia%2030060-2141&_ga=2.260190084.802900619.1530313902-2109714517.1515176305"
-      },
-      {
-        "name": "Yelp",
-        "image": "yelp",
-        "url": "https://yelp.com/biz/apex-furniture-refinishing-marietta"
-      },
-      {
-        "name": "Angie's List",
-        "image": "angies-list",
-        "url": "https://www.angieslist.com/companylist/us/ga/marietta/apex-furniture-refinishing-reviews-6607723.htm"
-      },
-      {
         "name": "BBB",
         "image": "bbb",
         "url": "https://www.bbb.org/atlanta/business-reviews/furniture-repair-and-refinish/apex-furniture-refinishing-in-marietta-ga-27288365"
@@ -60,7 +45,27 @@
       {
         "name": "Facebook",
         "image": "facebook",
-        "url": "https://fb.me/ApexFurnitureRefinishing/"
+        "url": "https://facebook.com/apexfurniturerefinishing/"
+      },
+      {
+        "name": "Google",
+        "image": "google",
+        "url": "https://search.google.com/local/writereview?placeid=ChIJCbHaLd0T9YgRVJx-jwve0c8"
+      },
+      {
+        "name": "Houzz",
+        "image": "houzz",
+        "url": "https://houzz.com/pro/atlantafurniturerefinishing/"
+      },
+      {
+        "name": "Instagram",
+        "image": "instagram",
+        "url": "https://instagram.com/apexfurniturerefinishing/"
+      },
+      {
+        "name": "Yelp",
+        "image": "yelp",
+        "url": "https://yelp.com/biz/apex-furniture-refinishing-marietta"
       }
     ]
   },
@@ -156,11 +161,6 @@
         "name": "Pandora",
         "image": "pandora",
         "url": "https://pandora.com/"
-      },
-      {
-        "name": "SoundCloud",
-        "image": "soundcloud",
-        "url": "https://soundcloud.com/"
       },
       {
         "name": "Spotify",

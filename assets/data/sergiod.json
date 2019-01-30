@@ -73,6 +73,11 @@
         "url": "https://netflix.com/"
       },
       {
+        "name": "Prime Video",
+        "image": "amazon-prime-video",
+        "url": "https://amazon.com/primevideo/"
+      },
+      {
         "name": "YouTube",
         "image": "youtube",
         "url": "https://youtube.com/"
@@ -83,14 +88,29 @@
     "category": "finances",
     "items": [
       {
-        "name": "BofA",
-        "image": "bank-of-america",
-        "url": "https://bankofamerica.com/"
-      },
-      {
         "name": "PayPal",
         "image": "paypal",
         "url": "https://paypal.com/"
+      },
+      {
+        "name": "Wells Fargo",
+        "image": "wells-fargo",
+        "url": "https://wellsfargo.com/"
+      },
+      {
+        "name": "Xoom",
+        "image": "xoom",
+        "url": "https://xoom.com/"
+      }
+    ]
+  },
+  {
+    "category": "music",
+    "items": [
+      {
+        "name": "Amazon Music",
+        "image": "amazon-music",
+        "url": "https://music.amazon.com/"
       }
     ]
   },
@@ -140,23 +160,8 @@
     ]
   },
   {
-    "category": "reference",
-    "items": [
-      {
-        "name": "Wikipedia",
-        "image": "wikipedia",
-        "url": "https://wikipedia.org/"
-      }
-    ]
-  },
-  {
     "category": "search",
     "items": [
-      {
-        "name": "Bing",
-        "image": "bing",
-        "url": "https://bing.com/"
-      },
       {
         "name": "Google",
         "image": "google",
@@ -211,11 +216,6 @@
         "name": "GitHub",
         "image": "github",
         "url": "https://github.com/"
-      },
-      {
-        "name": "CodePen",
-        "image": "codepen",
-        "url": "https://codepen.io/"
       }
     ]
   },

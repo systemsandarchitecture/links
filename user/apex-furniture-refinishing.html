@@ -1,158 +1,23 @@
 <!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Links | Systems & Architecture</title>
-  <link rel="canonical" href="https://sysandarc.com/apps/links/apex-furniture-refinishing/index.html">
-  <!-- web app -->
-  <meta name="description" content="Your links on the web">
-  <!-- web app icons -->
-  <!-- web app theme -->
-  <meta name="theme-color" content="#0050b4">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="msapplication-navbutton-color" content="#0050b4">
-  <meta name="msapplication-starturl" content="./">
-  <!-- facebook cards -->
-  <meta property="fb:app_id" content="1089447354449011">
-  <meta property="og:url" content="https://sysandarc.com/apps/links/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Systems & Architecture">
-  <meta property="og:title" content="Links">
-  <meta property="og:description" content="Your links on the web">
-  <meta property="og:image" content="https://sysandarc.com/assets/images/systems-and-architecture-cover.png">
-  <meta property="og:locale" content="en-US">
-  <!-- twitter cards -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@sysandarc">
-  <meta name="twitter:creator" content="@sergiodperezp">
-  <!-- json-ld -->
-  <!-- styles -->
-  <!-- basic -->
-  <link href="../assets/css/basic.min.css" rel="stylesheet">
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700,900" rel="stylesheet">
-  <!-- icons -->
-  <!-- inline css -->
-  <link href="../assets/css/style.css" rel="stylesheet">
-  <!-- custom css -->
-  <!-- favicon -->
-  <link href="../favicon.ico" rel="icon">
-  <!-- google analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77234848-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-77234848-1');
-  </script>
-  <!-- google analytics -->
 </head>
 <body>
-  <!-- header -->
-  <header>
-    <!-- navbar -->
-    <nav class="navbar navbar-top">
-      <!-- container -->
-      <div class="container">
-        <!-- row -->
-        <div class="row">
-          <!-- nav -->
-          <div class="nav">
-            <!-- navbar-header -->
-            <div class="navbar-header">
-              <!-- navbar-brand -->
-              <a href="./" class="navbar-brand">
-                <!-- navbar-image -->
-                <!-- navbar-image -->
-                <!-- navbar-title -->
-                <h1 class="navbar-title"></h1>
-                <!-- navbar-title -->
-              </a>
-              <!-- navbar-brand -->
-              <!-- navbar-icon -->
-              <!-- navbar-icon -->
-            </div>
-            <!-- navbar-header -->
-            <!-- navbar-menu -->
-            <!-- navbar-menu -->
-          </div>
-          <!-- nav -->
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </nav>
-    <!-- navbar -->
-  </header>
-  <!-- header -->
-
-  <!-- links -->
+  <header></header>
+    
   <section class="basic-page" id="links"></section>
-  <!-- links -->
 
-  <!-- footer -->
-  <section id="footer"></section>
-  <!-- footer -->
+  <section id="footer-section"></section>
 
-  <!-- scripts -->
-  <!-- service worker -->
-  <!-- basic -->
-  <!-- custom scripts -->
-  <script>
-    var navbarTitle = 'Apex Furniture Refinishing';
-    document.querySelector('.navbar-title').textContent = navbarTitle;
-
-    var dataUrl = '../assets/data/apex.json';
-
-    var links = document.querySelector('#links');
-
-    var linksStructure = '<div class="container"><div class="row"><div class="content"><div class="links"></div></div></div></div>';
-
-    if (links) {
-      links.innerHTML = linksStructure;
-    }
-
-    var linksClass = document.querySelector('.links');
-
-    function getData() {
-      fetch(dataUrl)
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(data) {
-        displayData(data);
-      })
-    }
-    getData();
-
-    function displayData(linksData) {
-
-      var linksItems = '';
-
-      for (var i in linksData) {
-
-        var category = linksData[i].category;
-        var items = linksData[i].items;
-
-        for (var j in items) {
-
-          linksItems += `<div class="item"><a href="${items[j].url}" target="_blank" rel="noopener"><img src="../assets/images/${category}/${items[j].image}.png" alt="${items[j].name}" class="item-image"><p class="item-name">${items[j].name}</p></a></div>`;
-        }
-      }
-      linksClass.innerHTML = linksItems;
-    }
-    var footer = document.querySelector('#footer');
-
-    var footerStructure = `<div class="container"><div class="row"><div class="content"><hr><div class="footer-bottom"><p>&copy; <span id="year"></span> <a href="https://sysandarc.com/" target="_blank" rel="noopener">Systems & Architecture LLC</a></p><p>All other trademarks or registered trademarks are property of their respective owners.</p></div></div></div></div>`;
-
-    if (footer) {
-      footer.innerHTML = footerStructure;
-    }
-
-    var year = new Date();
-    document.querySelector('#year').textContent = year.getFullYear();
+  <script type="module">
+    import {head} from '../assets/js/head.js';
+    import {header} from '../assets/js/header.js';
+    import {links} from '../assets/js/links.js';
+    import {footerSection} from '../assets/js/footer-section.js';
+    document.head.innerHTML = head;
+    header('Apex Furniture Refinishing', 'apex-furniture-refinishing');
+    links('apex');
+    footerSection();
   </script>
 </body>
 </html>

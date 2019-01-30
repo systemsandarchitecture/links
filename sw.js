@@ -25,11 +25,11 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/css/style.css",
-    "revision": "1ab805bf254c011f6e2d53c33d6423ee"
+    "revision": "f0b34893d4658569e79aef7ae4cd1484"
   },
   {
     "url": "assets/data/apex.json",
-    "revision": "eb0f7339c4e16acaa607205966732ff0"
+    "revision": "d16dd25be5eaa8091fe8fb8b86ce8cf9"
   },
   {
     "url": "assets/data/dsjga.json",
@@ -45,7 +45,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/sergiod.json",
-    "revision": "d3ca9dab4172287f0a69863e1d571185"
+    "revision": "244902863e4015120cb39aa61687a258"
   },
   {
     "url": "assets/data/sysandarc.json",
@@ -53,7 +53,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/data/tripoli.json",
-    "revision": "f1d376949abb4c7f7aa0536762eab0d0"
+    "revision": "80a049cf8e57a45032b85cc7730c2dbd"
   },
   {
     "url": "assets/icons/icon-144.png",
@@ -172,6 +172,10 @@ self.__precacheManifest = [
     "revision": "18875787b6595ade6144107972f1a839"
   },
   {
+    "url": "assets/images/entertainment/amazon-prime-video.png",
+    "revision": "f9f125cc42c9e0f92abdb932885a55d3"
+  },
+  {
     "url": "assets/images/entertainment/netflix.png",
     "revision": "06f57ac8b4274c1fbdee6014bb6db0a5"
   },
@@ -192,6 +196,14 @@ self.__precacheManifest = [
     "revision": "fc035d14579b7c1c0ea0831289f18ecc"
   },
   {
+    "url": "assets/images/finances/wells-fargo.png",
+    "revision": "c56c4292f26d50be30c87ded8b0ae442"
+  },
+  {
+    "url": "assets/images/finances/xoom.png",
+    "revision": "3f9a64d5d2255820d929a8df6e593858"
+  },
+  {
     "url": "assets/images/hosting/aws.png",
     "revision": "e467a0754f0f1043dacc09699b204441"
   },
@@ -202,6 +214,10 @@ self.__precacheManifest = [
   {
     "url": "assets/images/marketing/mailchimp.png",
     "revision": "0302db69666be940fd97277127e44e1a"
+  },
+  {
+    "url": "assets/images/music/amazon-music.png",
+    "revision": "b19c95760a17a0d2883cd570eab1d94a"
   },
   {
     "url": "assets/images/music/pandora.png",
@@ -304,6 +320,10 @@ self.__precacheManifest = [
     "revision": "93797aad706bfde2e882a4a57b2cce7f"
   },
   {
+    "url": "assets/images/social/houzz.png",
+    "revision": "1f7fcf7856c39165e29b835544704040"
+  },
+  {
     "url": "assets/images/social/instagram.png",
     "revision": "62491320140fc9280cf2e1a90909b836"
   },
@@ -352,8 +372,24 @@ self.__precacheManifest = [
     "revision": "5afc276e4ef02cec8fcc08e1b607edf7"
   },
   {
+    "url": "assets/js/footer-section.js",
+    "revision": "ab58ae8f36ce2d854e0a5d453c9165fd"
+  },
+  {
+    "url": "assets/js/head.js",
+    "revision": "9c156e5d15e92bae82ead296b4afbd16"
+  },
+  {
+    "url": "assets/js/header.js",
+    "revision": "37d396751ec0d7b5d879bab806eba13f"
+  },
+  {
+    "url": "assets/js/links.js",
+    "revision": "8a0fe1c2c628edf7d793c70977686b5e"
+  },
+  {
     "url": "assets/js/script.js",
-    "revision": "d34a406886487ea63637ce66bd768904"
+    "revision": "bf9fe607932869eafbf46519bfa1bb98"
   },
   {
     "url": "favicon.ico",
@@ -361,7 +397,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "7e78a46b4d8ef321869674e176afa0f7"
+    "revision": "dfe49508834fe668152b14211934abde"
+  },
+  {
+    "url": "libs/script.js",
+    "revision": "e57090c2ea8c407c0c28a15b836c30e5"
   },
   {
     "url": "manifest.json",
@@ -373,31 +413,27 @@ self.__precacheManifest = [
   },
   {
     "url": "user/apex-furniture-refinishing.html",
-    "revision": "dd4f9374cbaff04e38c8a2b65f4f7504"
+    "revision": "4e3e273dd7240f3288d458531ee90e59"
   },
   {
     "url": "user/dsjga.html",
-    "revision": "8af4c0560f6ad3dc8188a061bd558bee"
-  },
-  {
-    "url": "user/head.html",
-    "revision": "b5501a0b85732c049f5cead46b668c60"
+    "revision": "f3086445a434e0118952b03534306881"
   },
   {
     "url": "user/kikes-tree-service.html",
-    "revision": "a33404f813309eb30a874939b6c758d6"
+    "revision": "a2c6caf3e840d376b49514a36a05d8fc"
   },
   {
     "url": "user/sergio-perez.html",
-    "revision": "40a5e96872445948bcc65be26d2f0927"
+    "revision": "aa24cd570c1a1a504c606cdf9f09a3de"
   },
   {
     "url": "user/systems-and-architecture.html",
-    "revision": "0ee6ec7243e25295b9909206eff78b71"
+    "revision": "61ccce25905d2711ec534e0f59594730"
   },
   {
     "url": "user/tripoli-halal-meat.html",
-    "revision": "6eb370bc6af9518ee5ac8a70548a970a"
+    "revision": "b199cb74dcd011762d04c4698a598b2d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

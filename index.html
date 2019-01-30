@@ -60,41 +60,7 @@
 </head>
 <body>
   <!-- header -->
-  <header>
-    <!-- navbar -->
-    <nav class="navbar navbar-top">
-      <!-- container -->
-      <div class="container">
-        <!-- row -->
-        <div class="row">
-          <!-- nav -->
-          <div class="nav">
-            <!-- navbar-header -->
-            <div class="navbar-header">
-              <!-- navbar-brand -->
-              <a href="./" class="navbar-brand">
-                <!-- navbar-image -->
-                <!-- navbar-image -->
-                <!-- navbar-title -->
-                <h1 class="navbar-title">Links</h1>
-                <!-- navbar-title -->
-              </a>
-              <!-- navbar-brand -->
-              <!-- navbar-icon -->
-              <!-- navbar-icon -->
-            </div>
-            <!-- navbar-header -->
-            <!-- navbar-menu -->
-            <!-- navbar-menu -->
-          </div>
-          <!-- nav -->
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </nav>
-    <!-- navbar -->
-  </header>
+  <header></header>
   <!-- header -->
 
   <!-- links -->
@@ -102,20 +68,27 @@
   <!-- links -->
 
   <!-- footer -->
-  <section id="footer"></section>
+  <section id="footer-section"></section>
   <!-- footer -->
 
   <!-- scripts -->
+  <script type="module">
+    import {header} from './assets/js/header.js';
+    import {links} from './assets/js/links.js';
+    import {footerSection} from './assets/js/footer-section.js';
+    header('Links', 'index');
+    links('links');
+    footerSection();
+  </script>
   <!-- service worker -->
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js');
-        });
-      }
-    </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
   <!-- basic -->
   <!-- custom scripts -->
-  <script src="./assets/js/script.js"></script>
 </body>
 </html>
