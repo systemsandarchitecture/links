@@ -1,7 +1,7 @@
-export function links(link) {
+export function links(path, link) {
 
   // data url
-  let dataUrl = '../assets/data/'+link+'.json';
+  let dataUrl = path+'/assets/data/'+link+'.json';
 
   // links id
   let links = document.querySelector('#links');
