@@ -1,17 +1,37 @@
 [
   {
-    "category": "business",
+    "category": "others",
     "items": [
       {
-        "name": "Wave",
-        "image": "wave",
-        "url": "https://my.waveapps.com/"
+        "name": "Markets Depot",
+        "image": "markets-depot-usa",
+        "url": "https://marketsdepotusa.com/"
+      },
+      {
+        "name": "MDU Admin",
+        "image": "markets-depot-usa",
+        "url": "https://marketsdepotusa.com/wp-admin/"
+      },
+      {
+        "name": "MDU Email",
+        "image": "markets-depot-usa",
+        "url": "https://marketsdepotusa.com/"
+      },
+      {
+        "name": "Bluehost",
+        "image": "bluehost",
+        "url": "https://my.bluehost.com/web-hosting/cplogin"
       }
     ]
   },
   {
     "category": "cloud",
     "items": [
+      {
+        "name": "Dropbox",
+        "image": "dropbox",
+        "url": "https://dropbox.com/"
+      },
       {
         "name": "Drive",
         "image": "google-drive",
@@ -28,14 +48,14 @@
     "category": "communication",
     "items": [
       {
-        "name": "Messages",
-        "image": "android-messages",
-        "url": "https://messages.android.com/"
-      },
-      {
         "name": "Messenger",
         "image": "messenger",
         "url": "https://messenger.com/"
+      },
+      {
+        "name": "Skype",
+        "image": "skype",
+        "url": "https://web.skype.com/"
       },
       {
         "name": "Whatsapp",
@@ -80,57 +100,22 @@
     ]
   },
   {
-    "category": "finances",
+    "category": "music",
     "items": [
       {
-        "name": "PayPal",
-        "image": "paypal",
-        "url": "https://paypal.com/"
+        "name": "Pandora",
+        "image": "pandora",
+        "url": "https://pandora.com/"
       },
       {
-        "name": "Ria",
-        "image": "ria",
-        "url": "https://www.riamoneytransfer.com/"
+        "name": "SoundCloud",
+        "image": "soundcloud",
+        "url": "https://soundcloud.com/"
       },
       {
-        "name": "Wells Fargo",
-        "image": "wells-fargo",
-        "url": "https://wellsfargo.com/"
-      },
-      {
-        "name": "Xoom",
-        "image": "xoom",
-        "url": "https://xoom.com/"
-      }
-    ]
-  },
-  {
-    "category": "others",
-    "items": [
-      {
-        "name": "SysandArc",
-        "image": "sysandarc",
-        "url": "https://sysandarc.com/"
-      },
-      {
-        "name": "Gateway",
-        "image": "netgear",
-        "url": "http://192.168.1.100/"
-      },
-      {
-        "name": "Production",
-        "image": "sysandarc",
-        "url": "http://192.168.1.101/"
-      },
-      {
-        "name": "Webpack",
-        "image": "webpack",
-        "url": "http://192.168.1.101:3000/"
-      },
-      {
-        "name": "SrgdppSrvr",
-        "image": "sysandarc",
-        "url": "http://192.168.1.200/"
+        "name": "Spotify",
+        "image": "spotify",
+        "url": "https://spotify.com/"
       }
     ]
   },
@@ -145,18 +130,23 @@
     ]
   },
   {
-    "category": "productivity",
+    "category": "reference",
     "items": [
       {
-        "name": "Keep",
-        "image": "google-keep",
-        "url": "https://keep.google.com/"
+        "name": "Wikipedia",
+        "image": "wikipedia",
+        "url": "https://wikipedia.org/"
       }
     ]
   },
   {
     "category": "search",
     "items": [
+      {
+        "name": "Bing",
+        "image": "bing",
+        "url": "https://bing.com/"
+      },
       {
         "name": "Google",
         "image": "google",
@@ -190,27 +180,22 @@
       {
         "name": "Facebook",
         "image": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/Markets-Depot-USA-789282541427658/"
       },
       {
         "name": "Instagram",
         "image": "instagram",
-        "url": "https://instagram.com/"
+        "url": "https://instagram.com/marketsdepotusa/"
+      },
+      {
+        "name": "Pinterest",
+        "image": "pinterest",
+        "url": "https://pinterest.com/"
       },
       {
         "name": "Twitter",
         "image": "twitter",
         "url": "https://twitter.com/"
-      }
-    ]
-  },
-  {
-    "category": "tech",
-    "items": [
-      {
-        "name": "GitHub",
-        "image": "github",
-        "url": "https://github.com/"
       }
     ]
   },
@@ -226,6 +211,11 @@
         "name": "Translate",
         "image": "google-translate",
         "url": "https://translate.google.com/"
+      },
+      {
+        "name": "Waze",
+        "image": "waze",
+        "url": "https://waze.com/livemap/"
       }
     ]
   }

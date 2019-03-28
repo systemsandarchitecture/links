@@ -211,11 +211,6 @@
         "name": "Amazon",
         "image": "amazon",
         "url": "https://amazon.com/"
-      },
-      {
-        "name": "eBay",
-        "image": "ebay",
-        "url": "https://ebay.com/"
       }
     ]
   },
@@ -231,6 +226,11 @@
         "name": "Instagram",
         "image": "instagram",
         "url": "https://instagram.com/sysandarc/"
+      },
+      {
+        "name": "Pinterest",
+        "image": "pinterest",
+        "url": "https://pinterest.com/sysandarc/"
       },
       {
         "name": "Twitter",
@@ -270,7 +270,7 @@
       {
         "name": "Search Console",
         "image": "google-search-console",
-        "url": "https://www.google.com/webmasters/tools/"
+        "url": "https://search.google.com/search-console/"
       },
       {
         "name": "Translate",
