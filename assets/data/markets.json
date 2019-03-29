@@ -8,17 +8,17 @@
         "url": "https://marketsdepotusa.com/"
       },
       {
-        "name": "MDU Admin",
-        "image": "markets-depot-usa",
+        "name": "MD Admin",
+        "image": "wordpress",
         "url": "https://marketsdepotusa.com/wp-admin/"
       },
       {
-        "name": "MDU Email",
-        "image": "markets-depot-usa",
+        "name": "MD Email",
+        "image": "email",
         "url": "https://marketsdepotusa.com/"
       },
       {
-        "name": "Bluehost",
+        "name": "MD Hosting",
         "image": "bluehost",
         "url": "https://my.bluehost.com/web-hosting/cplogin"
       }
