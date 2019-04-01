@@ -5,12 +5,12 @@
       {
         "name": "Website",
         "image": "apex-furniture-refinishing",
-        "url": "http://atlantafurniturerefinishing.com/"
+        "url": "https://atlantafurniturerefinishing.com/"
       },
       {
         "name": "Wordpress",
         "image": "wordpress",
-        "url": "http://atlantafurniturerefinishing.com/wp-admin/"
+        "url": "https://atlantafurniturerefinishing.com/wp-admin/"
       },
       {
         "name": "IPOWER",
@@ -61,6 +61,11 @@
         "name": "Instagram",
         "image": "instagram",
         "url": "https://instagram.com/apexfurniturerefinishing/"
+      },
+      {
+        "name": "Nextdoor",
+        "image": "nextdoor",
+        "url": "https://nextdoor.com/pages/apex-furniture-refinishing-marietta-ga/"
       },
       {
         "name": "Yelp",
@@ -131,11 +136,6 @@
         "name": "Duolingo",
         "image": "duolingo",
         "url": "https://duolingo.com/"
-      },
-      {
-        "name": "edX",
-        "image": "edx",
-        "url": "https://edx.org/"
       }
     ]
   },

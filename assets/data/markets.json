@@ -13,14 +13,29 @@
         "url": "https://marketsdepotusa.com/wp-admin/"
       },
       {
-        "name": "MD Email",
-        "image": "email",
-        "url": "https://marketsdepotusa.com/"
-      },
-      {
         "name": "MD Hosting",
         "image": "bluehost",
         "url": "https://my.bluehost.com/web-hosting/cplogin"
+      }
+    ]
+  },
+  {
+    "category": "email",
+    "items": [
+      {
+        "name": "MD Email",
+        "image": "roundcube",
+        "url": "https://login.bluehost.com/hosting/webmail"
+      }
+    ]
+  },
+  {
+    "category": "business",
+    "items": [
+      {
+        "name": "Quickbooks",
+        "image": "quickbooks",
+        "url": "https://qbo.intuit.com/login"
       }
     ]
   },
@@ -87,11 +102,6 @@
   {
     "category": "entertainment",
     "items": [
-      {
-        "name": "Netflix",
-        "image": "netflix",
-        "url": "https://netflix.com/"
-      },
       {
         "name": "YouTube",
         "image": "youtube",
