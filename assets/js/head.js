@@ -22,4 +22,11 @@ export let head = `
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700,900" rel="stylesheet">
   <link href="../assets/css/style.css" rel="stylesheet">
   <link href="../favicon.ico" rel="icon">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141701136-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-141701136-1');
+  </script>
 `;
