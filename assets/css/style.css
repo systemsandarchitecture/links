@@ -12,9 +12,9 @@ html, body {
 .navbar {
   background-color: #1969cd;
   border-bottom: none;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
-  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16); }
+  box-shadow: 0 6px 24x rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12); }
   .navbar .navbar-title {
     color: #fff;
     font-size: 22px;
@@ -43,14 +43,14 @@ html, body {
       grid-row-gap: 48px; } }
 
 #links .item {
-  border-radius: 6px;
-  padding: 6px 6px 18px;
+  border-radius: 12px;
+  padding: 12px 6px 18px;
   transition: all .4s; }
   #links .item:hover, #links .item:focus, #links .item:active {
     transform: scale(1.05);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
-    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
-    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16); }
+    box-shadow: 0 6px 24x rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12); }
 
 #links .item-image {
   margin: 0 auto 6px;

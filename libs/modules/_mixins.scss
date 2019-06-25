@@ -1,13 +1,12 @@
-@import 'variables';
 @mixin box-shadow-bottom() {
-  box-shadow: 0 4px 4px rgba($black,.16);
-  -webkit-box-shadow: 0 4px 4px rgba($black,.16);
-  -moz-box-shadow: 0 4px 4px rgba($black,.16);
+  box-shadow: 0 6px 24x rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 6px 24px rgba(0,0,0,.12);
+  -moz-box-shadow: 0 6px 24px rgba(0,0,0,.12);
 }
 @mixin box-shadow-top() {
-  box-shadow: 0 -4px 4px rgba($black,.16);
-  -webkit-box-shadow: 0 -4px 4px rgba($black,.16);
-  -moz-box-shadow: 0 -4px 4px rgba($black,.16);
+  box-shadow: 0 -6px 24px rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 -6px 24px rgba(0,0,0,.12);
+  -moz-box-shadow: 0 -6px 24px rgba(0,0,0,.12);
 }
 @mixin box-shadow-none() {
   box-shadow: none;

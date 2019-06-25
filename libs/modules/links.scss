@@ -16,8 +16,8 @@
     }
   }
   .item {
-    border-radius: 6px;
-    padding: 6px 6px 18px;
+    border-radius: 12px;
+    padding: 12px 6px 18px;
     transition: all .4s;
     &:hover, &:focus, &:active {
       transform: scale(1.05);
