@@ -1,15 +1,5 @@
 [
   {
-    "category": "business",
-    "items": [
-      {
-        "name": "Wave",
-        "image": "wave",
-        "url": "https://my.waveapps.com/"
-      }
-    ]
-  },
-  {
     "category": "cloud",
     "items": [
       {
@@ -33,14 +23,34 @@
         "url": "https://messages.google.com/web/"
       },
       {
-        "name": "Messenger",
-        "image": "messenger",
-        "url": "https://messenger.com/"
-      },
-      {
         "name": "Whatsapp",
         "image": "whatsapp",
         "url": "https://web.whatsapp.com/"
+      }
+    ]
+  },
+  {
+    "category": "education",
+    "items": [
+      {
+        "name": "ABCmouse",
+        "image": "abc-mouse",
+        "url": "https://abcmouse.com/"
+      },
+      {
+        "name": "DisneyNOW",
+        "image": "disney-now",
+        "url": "https://disneynow.com/"
+      },
+      {
+        "name": "Nick Jr.",
+        "image": "nick-jr",
+        "url": "https://nickjr.com/"
+      },
+      {
+        "name": "PBS KIDS",
+        "image": "pbs-kids",
+        "url": "https://pbskids.org/"
       }
     ]
   },
@@ -73,9 +83,9 @@
         "url": "https://netflix.com/"
       },
       {
-        "name": "YouTube",
-        "image": "youtube",
-        "url": "https://youtube.com/"
+        "name": "Tubi",
+        "image": "tubi",
+        "url": "https://tubitv.com/"
       }
     ]
   },
@@ -108,9 +118,9 @@
     "category": "others",
     "items": [
       {
-        "name": "SysandArc",
-        "image": "sysandarc",
-        "url": "https://sysandarc.com/"
+        "name": "Systems",
+        "image": "systems-and-architecture",
+        "url": "https://systemsandarchitecture.com/"
       },
       {
         "name": "Gateway",
@@ -119,7 +129,7 @@
       },
       {
         "name": "Production",
-        "image": "sysandarc",
+        "image": "systems-and-architecture",
         "url": "http://192.168.1.101/"
       },
       {
@@ -129,7 +139,7 @@
       },
       {
         "name": "SrgdppSrvr",
-        "image": "sysandarc",
+        "image": "systems-and-architecture",
         "url": "http://192.168.1.200/"
       }
     ]
@@ -196,21 +206,6 @@
         "name": "Instagram",
         "image": "instagram",
         "url": "https://instagram.com/"
-      },
-      {
-        "name": "Twitter",
-        "image": "twitter",
-        "url": "https://twitter.com/"
-      }
-    ]
-  },
-  {
-    "category": "tech",
-    "items": [
-      {
-        "name": "GitHub",
-        "image": "github",
-        "url": "https://github.com/"
       }
     ]
   },

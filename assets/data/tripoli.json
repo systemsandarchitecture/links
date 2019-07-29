@@ -1,11 +1,76 @@
 [
   {
+    "category": "others",
+    "items": [
+      {
+        "name": "Tripoli",
+        "image": "tripoli-halal-meat",
+        "url": "https://tripolihalalmeat.com/"
+      }
+    ]
+  },
+  {
+    "category": "email",
+    "items": [
+      {
+        "name": "Gmail",
+        "image": "gmail",
+        "url": "https://gmail.com/"
+      },
+      {
+        "name": "Zoho Mail",
+        "image": "zoho-mail",
+        "url": "https://mail.zoho.com/"
+      }
+    ]
+  },
+  {
     "category": "business",
     "items": [
       {
-        "name": "Yelp",
+        "name": "Yelp Business",
         "image": "yelp-for-business",
         "url": "https://biz.yelp.com/"
+      }
+    ]
+  },
+  {
+    "category": "social",
+    "items": [
+      {
+        "name": "Facebook",
+        "image": "facebook",
+        "url": "https://facebook.com/tripolihalalmeat/"
+      },
+      {
+        "name": "Instagram",
+        "image": "instagram",
+        "url": "https://instagram.com/tripolihalalmeat/"
+      },
+      {
+        "name": "Yelp",
+        "image": "yelp",
+        "url": "https://yelp.com/biz/tripoli-halal-meat-marietta/"
+      }
+    ]
+  },
+  {
+    "category": "entertainment",
+    "items": [
+      {
+        "name": "YouTube",
+        "image": "youtube",
+        "url": "https://www.youtube.com/channel/UCkHBIwlEGf5mzpDcdEiQ4ig"
+      }
+    ]
+  },
+  {
+    "category": "marketing",
+    "items": [
+      {
+        "name": "MailChimp",
+        "image": "mailchimp",
+        "url": "https://mailchimp.com/"
       }
     ]
   },
@@ -43,11 +108,6 @@
     "category": "email",
     "items": [
       {
-        "name": "Gmail",
-        "image": "gmail",
-        "url": "https://gmail.com/"
-      },
-      {
         "name": "Outlook",
         "image": "outlook",
         "url": "https://outlook.live.com/"
@@ -56,41 +116,6 @@
         "name": "Yahoo Mail",
         "image": "yahoo-mail",
         "url": "https://mail.yahoo.com/"
-      },
-      {
-        "name": "Zoho Mail",
-        "image": "zoho-mail",
-        "url": "https://mail.zoho.com/"
-      }
-    ]
-  },
-  {
-    "category": "entertainment",
-    "items": [
-      {
-        "name": "YouTube",
-        "image": "youtube",
-        "url": "https://www.youtube.com/channel/UCkHBIwlEGf5mzpDcdEiQ4ig"
-      }
-    ]
-  },
-  {
-    "category": "marketing",
-    "items": [
-      {
-        "name": "MailChimp",
-        "image": "mailchimp",
-        "url": "https://mailchimp.com/"
-      }
-    ]
-  },
-  {
-    "category": "others",
-    "items": [
-      {
-        "name": "Tripoli",
-        "image": "tripoli-halal-meat",
-        "url": "https://tripolihalalmeat.com/"
       }
     ]
   },
@@ -146,26 +171,6 @@
         "name": "eBay",
         "image": "ebay",
         "url": "https://ebay.com/"
-      }
-    ]
-  },
-  {
-    "category": "social",
-    "items": [
-      {
-        "name": "Facebook",
-        "image": "facebook",
-        "url": "https://facebook.com/tripolihalalmeat/"
-      },
-      {
-        "name": "Instagram",
-        "image": "instagram",
-        "url": "https://instagram.com/tripolihalalmeat/"
-      },
-      {
-        "name": "Yelp",
-        "image": "yelp",
-        "url": "https://yelp.com/biz/tripoli-halal-meat-marietta/"
       }
     ]
   },
