@@ -138,9 +138,9 @@
     "category": "others",
     "items": [
       {
-        "name": "SysandArc",
-        "image": "sysandarc",
-        "url": "https://sysandarc.com/"
+        "name": "Systems",
+        "image": "systems-and-architecture",
+        "url": "https://systems-and-architecture.com/"
       },
       {
         "name": "Gateway",
@@ -149,7 +149,7 @@
       },
       {
         "name": "Production",
-        "image": "sysandarc",
+        "image": "systems-and-architecture",
         "url": "http://192.168.1.101/"
       },
       {
@@ -159,7 +159,7 @@
       },
       {
         "name": "SrgdppSrvr",
-        "image": "sysandarc",
+        "image": "systems-and-architecture",
         "url": "http://192.168.1.200/"
       }
     ]

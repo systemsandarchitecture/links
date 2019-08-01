@@ -3,7 +3,7 @@
     "category": "others",
     "items": [
       {
-        "name": "Website",
+        "name": "Apex",
         "image": "apex-furniture-refinishing",
         "url": "https://atlantafurniturerefinishing.com/"
       },
@@ -28,6 +28,11 @@
         "url": "https://secure.ipower.com/secure/login.bml#webmail"
       },
       {
+        "name": "Gmail",
+        "image": "gmail",
+        "url": "https://gmail.com/"
+      },
+      {
         "name": "Yahoo Mail",
         "image": "yahoo-mail",
         "url": "https://mail.yahoo.com/"
@@ -35,13 +40,18 @@
     ]
   },
   {
-    "category": "social",
+    "category": "business",
     "items": [
       {
-        "name": "BBB",
-        "image": "bbb",
-        "url": "https://www.bbb.org/atlanta/business-reviews/furniture-repair-and-refinish/apex-furniture-refinishing-in-marietta-ga-27288365"
-      },
+        "name": "Yelp Business",
+        "image": "yelp-for-business",
+        "url": "https://biz.yelp.com/"
+      }
+    ]
+  },
+  {
+    "category": "social",
+    "items": [
       {
         "name": "Facebook",
         "image": "facebook",
@@ -50,7 +60,7 @@
       {
         "name": "Google",
         "image": "google",
-        "url": "https://search.google.com/local/writereview?placeid=ChIJCbHaLd0T9YgRVJx-jwve0c8"
+        "url": "https://g.page/apexfurniturerefinishing"
       },
       {
         "name": "Houzz",
@@ -61,6 +71,11 @@
         "name": "Instagram",
         "image": "instagram",
         "url": "https://instagram.com/apexfurniturerefinishing/"
+      },
+      {
+        "name": "LinkedIn",
+        "image": "linkedin",
+        "url": "https://linkedin.com/in/asim-qureshi-apex-furniture-refinishing/"
       },
       {
         "name": "Nextdoor",
@@ -80,7 +95,7 @@
       {
         "name": "Google Maps",
         "image": "google-maps",
-        "url": "https://goo.gl/maps/uQvc7zuPQg62"
+        "url": "https://google.com/maps"
       }
     ]
   },
@@ -107,11 +122,6 @@
   {
     "category": "communication",
     "items": [
-      {
-        "name": "Messages",
-        "image": "android-messages",
-        "url": "https://messages.google.com/web/"
-      },
       {
         "name": "Messenger",
         "image": "messenger",
@@ -155,21 +165,6 @@
     ]
   },
   {
-    "category": "music",
-    "items": [
-      {
-        "name": "Pandora",
-        "image": "pandora",
-        "url": "https://pandora.com/"
-      },
-      {
-        "name": "Spotify",
-        "image": "spotify",
-        "url": "https://spotify.com/"
-      }
-    ]
-  },
-  {
     "category": "photography",
     "items": [
       {
@@ -196,6 +191,11 @@
         "name": "Bing",
         "image": "bing",
         "url": "https://bing.com/"
+      },
+      {
+        "name": "Google",
+        "image": "google",
+        "url": "https://google.com/"
       },
       {
         "name": "Yahoo",

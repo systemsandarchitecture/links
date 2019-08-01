@@ -43,6 +43,11 @@
         "url": "https://facebook.com/tripolihalalmeat/"
       },
       {
+        "name": "Google",
+        "image": "google",
+        "url": "https://g.page/tripolihalalmeat/"
+      },
+      {
         "name": "Instagram",
         "image": "instagram",
         "url": "https://instagram.com/tripolihalalmeat/"
@@ -126,16 +131,6 @@
         "name": "Photos",
         "image": "google-photos",
         "url": "https://photos.google.com/"
-      }
-    ]
-  },
-  {
-    "category": "productivity",
-    "items": [
-      {
-        "name": "Keep",
-        "image": "google-keep",
-        "url": "https://keep.google.com/"
       }
     ]
   },
