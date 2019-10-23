@@ -1,0 +1,172 @@
+[
+  {
+    "category": "communication",
+    "items": [
+      {
+        "name": "Skype",
+        "image": "skype",
+        "url": "https://web.skype.com/"
+      }
+    ]
+  },
+  {
+    "category": "education",
+    "items": [
+      {
+        "name": "Duolingo",
+        "image": "duolingo",
+        "url": "https://duolingo.com/"
+      }
+    ]
+  },
+  {
+    "category": "entertainment",
+    "items": [
+      {
+        "name": "Netflix",
+        "image": "netflix",
+        "url": "https://netflix.com/"
+      }
+    ]
+  },
+  {
+    "category": "kids",
+    "items": [
+      {
+        "name": "ABCya!",
+        "image": "abcya",
+        "url": "https://abcya.com/"
+      },
+      {
+        "name": "DisneyNOW",
+        "image": "disney-now",
+        "url": "https://disneynow.com/"
+      },
+      {
+        "name": "Nick Jr.",
+        "image": "nick-jr",
+        "url": "https://nickjr.com/"
+      },
+      {
+        "name": "PBS KIDS",
+        "image": "pbs-kids",
+        "url": "https://pbskids.org/"
+      },
+      {
+        "name": "Sesame Street",
+        "image": "sesame-street",
+        "url": "https://sesamestreet.org/"
+      },
+      {
+        "name": "Sheppard",
+        "image": "sheppard-software",
+        "url": "http://sheppardsoftware.com/"
+      },
+      {
+        "name": "Starfall",
+        "image": "starfall",
+        "url": "https://starfall.com/"
+      },
+      {
+        "name": "Storyline",
+        "image": "storyline-online",
+        "url": "https://storylineonline.net/"
+      },
+      {
+        "name": "TurtleDiary",
+        "image": "turtle-diary",
+        "url": "https://turtlediary.com/"
+      },
+      {
+        "name": "YouTube Kids",
+        "image": "youtube-kids",
+        "url": "https://youtubekids.com/"
+      }
+    ]
+  },
+  {
+    "category": "music",
+    "items": [
+      {
+        "name": "Pandora",
+        "image": "pandora",
+        "url": "https://pandora.com/"
+      },
+      {
+        "name": "SoundCloud",
+        "image": "soundcloud",
+        "url": "https://soundcloud.com/"
+      },
+      {
+        "name": "Spotify",
+        "image": "spotify",
+        "url": "https://spotify.com/"
+      }
+    ]
+  },
+  {
+    "category": "photography",
+    "items": [
+      {
+        "name": "Photos",
+        "image": "google-photos",
+        "url": "https://photos.google.com/"
+      }
+    ]
+  },
+  {
+    "category": "productivity",
+    "items": [
+      {
+        "name": "Keep",
+        "image": "google-keep",
+        "url": "https://keep.google.com/"
+      }
+    ]
+  },
+  {
+    "category": "reference",
+    "items": [
+      {
+        "name": "Wikipedia",
+        "image": "wikipedia",
+        "url": "https://wikipedia.org/"
+      }
+    ]
+  },
+  {
+    "category": "search",
+    "items": [
+      {
+        "name": "Bing",
+        "image": "bing",
+        "url": "https://bing.com/"
+      },
+      {
+        "name": "Google",
+        "image": "google",
+        "url": "https://google.com/"
+      },
+      {
+        "name": "Yahoo",
+        "image": "yahoo",
+        "url": "https://yahoo.com/"
+      }
+    ]
+  },
+  {
+    "category": "tools",
+    "items": [
+      {
+        "name": "Maps",
+        "image": "google-maps",
+        "url": "https://maps.google.com/"
+      },
+      {
+        "name": "Translate",
+        "image": "google-translate",
+        "url": "https://translate.google.com/"
+      }
+    ]
+  }
+]

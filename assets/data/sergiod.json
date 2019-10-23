@@ -23,6 +23,16 @@
         "url": "https://messages.google.com/web/"
       },
       {
+        "name": "Messenger",
+        "image": "messenger",
+        "url": "https://messenger.com/"
+      },
+      {
+        "name": "Skype",
+        "image": "skype",
+        "url": "https://web.skype.com/"
+      },
+      {
         "name": "Whatsapp",
         "image": "whatsapp",
         "url": "https://web.whatsapp.com/"
@@ -33,24 +43,9 @@
     "category": "education",
     "items": [
       {
-        "name": "ABCmouse",
-        "image": "abc-mouse",
-        "url": "https://abcmouse.com/"
-      },
-      {
-        "name": "DisneyNOW",
-        "image": "disney-now",
-        "url": "https://disneynow.com/"
-      },
-      {
-        "name": "Nick Jr.",
-        "image": "nick-jr",
-        "url": "https://nickjr.com/"
-      },
-      {
-        "name": "PBS KIDS",
-        "image": "pbs-kids",
-        "url": "https://pbskids.org/"
+        "name": "edX",
+        "image": "edx",
+        "url": "https://edx.org/"
       }
     ]
   },
@@ -86,6 +81,11 @@
         "name": "Tubi",
         "image": "tubi",
         "url": "https://tubitv.com/"
+      },
+      {
+        "name": "YouTube",
+        "image": "youtube",
+        "url": "https://youtube.com/"
       }
     ]
   },
