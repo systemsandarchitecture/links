@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+</head>
+<body>
+  <header></header>
+    
+  <section class="basic-page" id="links"></section>
+
+  <section id="footer-section"></section>
+
+  <script type="module">
+    import {head} from '../assets/js/head.js';
+    import {header} from '../assets/js/header.js';
+    import {links} from '../assets/js/links.js';
+    import {footerSection} from '../assets/js/footer-section.js';
+    document.head.innerHTML = head;
+    header('Beauty Supplies 2Q3', 'beauty-supplies-2q3');
+    links('..', '2q3');
+    footerSection();
+  </script>
+</body>
+</html>
