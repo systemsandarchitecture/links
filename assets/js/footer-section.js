@@ -8,7 +8,7 @@ export function footerSection() {
         <div class="content">
           <hr>
           <div class="footer-bottom">
-            <p>&copy; <span id="year"></span> <a href="https://sysandarc.com/" target="_blank" rel="noopener">Systems & Architecture LLC</a></p>
+            <p>&copy; <span id="year"></span> <a href="https://systemsandarchitecture.com/" target="_blank" rel="noopener">Systems & Architecture LLC</a></p>
             <p>All other trademarks or registered trademarks are property of their respective owners.</p>
           </div>
         </div>
