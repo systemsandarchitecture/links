@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Links | Systems & Architecture</title>
+  <title>Links | Your links on the web from Systems & Architecture</title>
   <link rel="canonical" href="https://systemsandarchitecture.github.io/links/index.html">
   <!-- web app -->
   <meta name="description" content="Your links on the web">
@@ -28,7 +28,7 @@
   <link rel="apple-touch-icon" type="image/png" sizes="240x240" href="./assets/icons/icon-512.png">
   <!-- web app theme -->
   <meta name="theme-color" content="#0050b4">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="msapplication-navbutton-color" content="#0050b4">
   <meta name="msapplication-starturl" content="./">
   <!-- facebook cards -->
@@ -51,8 +51,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700,900" rel="stylesheet">
   <!-- icons -->
   <!-- inline css -->
-  <link href="./assets/css/style.css" rel="stylesheet">
   <!-- custom css -->
+  <link href="./assets/css/style.css" rel="stylesheet">
   <!-- favicon -->
   <link href="./favicon.ico" rel="icon">
   <!-- google analytics -->
@@ -88,6 +88,13 @@
     footerSection();
   </script>
   <!-- service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
   <!-- basic -->
   <!-- custom scripts -->
 </body>

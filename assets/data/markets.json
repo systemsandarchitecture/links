@@ -3,19 +3,24 @@
     "category": "others",
     "items": [
       {
-        "name": "Markets Depot",
+        "name": "Store",
         "image": "markets-depot-usa",
         "url": "https://marketsdepotusa.com/"
       },
       {
-        "name": "MD Admin",
+        "name": "Administration",
         "image": "wordpress",
         "url": "https://marketsdepotusa.com/wp-admin/"
       },
       {
-        "name": "MD Hosting",
+        "name": "Hosting",
         "image": "bluehost",
         "url": "https://my.bluehost.com/web-hosting/cplogin"
+      },
+      {
+        "name": "Coverage",
+        "image": "markets-depot-usa",
+        "url": "https://marketsdepotusa.com/coverage"
       }
     ]
   },
@@ -23,9 +28,19 @@
     "category": "email",
     "items": [
       {
-        "name": "MD Email",
+        "name": "Email",
         "image": "roundcube",
         "url": "https://login.bluehost.com/hosting/webmail"
+      },
+      {
+        "name": "Gmail",
+        "image": "gmail",
+        "url": "https://gmail.com/"
+      },
+      {
+        "name": "Outlook",
+        "image": "outlook",
+        "url": "https://outlook.live.com/"
       }
     ]
   },
@@ -43,11 +58,6 @@
     "category": "cloud",
     "items": [
       {
-        "name": "Dropbox",
-        "image": "dropbox",
-        "url": "https://dropbox.com/"
-      },
-      {
         "name": "Drive",
         "image": "google-drive",
         "url": "https://drive.google.com/"
@@ -62,6 +72,11 @@
   {
     "category": "communication",
     "items": [
+      {
+        "name": "Messages",
+        "image": "android-messages",
+        "url": "https://messages.google.com/web/"
+      },
       {
         "name": "Messenger",
         "image": "messenger",
@@ -80,22 +95,52 @@
     ]
   },
   {
-    "category": "email",
+    "category": "social",
     "items": [
       {
-        "name": "Gmail",
-        "image": "gmail",
-        "url": "https://gmail.com/"
+        "name": "Facebook",
+        "image": "facebook",
+        "url": "https://facebook.com/marketsdepotusa/"
       },
       {
-        "name": "Outlook",
-        "image": "outlook",
-        "url": "https://outlook.live.com/"
+        "name": "Instagram",
+        "image": "instagram",
+        "url": "https://instagram.com/marketsdepotusa/"
+      }
+    ]
+  },
+  {
+    "category": "productivity",
+    "items": [
+      {
+        "name": "Keep",
+        "image": "google-keep",
+        "url": "https://keep.google.com/"
+      }
+    ]
+  },
+  {
+    "category": "tools",
+    "items": [
+      {
+        "name": "Maps",
+        "image": "google-maps",
+        "url": "https://google.com/maps"
       },
       {
-        "name": "Yahoo Mail",
-        "image": "yahoo-mail",
-        "url": "https://mail.yahoo.com/"
+        "name": "My Maps",
+        "image": "google-my-maps",
+        "url": "https://google.com/mymaps"
+      },
+      {
+        "name": "Translate",
+        "image": "google-translate",
+        "url": "https://translate.google.com/"
+      },
+      {
+        "name": "Waze",
+        "image": "waze",
+        "url": "https://waze.com/livemap/"
       }
     ]
   },
@@ -181,51 +226,6 @@
         "name": "eBay",
         "image": "ebay",
         "url": "https://ebay.com/"
-      }
-    ]
-  },
-  {
-    "category": "social",
-    "items": [
-      {
-        "name": "Facebook",
-        "image": "facebook",
-        "url": "https://facebook.com/marketsdepotusa/"
-      },
-      {
-        "name": "Instagram",
-        "image": "instagram",
-        "url": "https://instagram.com/marketsdepotusa/"
-      },
-      {
-        "name": "Pinterest",
-        "image": "pinterest",
-        "url": "https://pinterest.com/"
-      },
-      {
-        "name": "Twitter",
-        "image": "twitter",
-        "url": "https://twitter.com/"
-      }
-    ]
-  },
-  {
-    "category": "tools",
-    "items": [
-      {
-        "name": "Maps",
-        "image": "google-maps",
-        "url": "https://maps.google.com/"
-      },
-      {
-        "name": "Translate",
-        "image": "google-translate",
-        "url": "https://translate.google.com/"
-      },
-      {
-        "name": "Waze",
-        "image": "waze",
-        "url": "https://waze.com/livemap/"
       }
     ]
   }
