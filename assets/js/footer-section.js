@@ -1,8 +1,8 @@
 export function footerSection() {
 
-  let footerSection = document.querySelector('#footer-section');
+  const footerSection = document.querySelector('#footer-section');
 
-  let footerSectionStructure = `
+  const footerSectionStructure = `
     <div class="container">
       <div class="row">
         <div class="content">
@@ -16,10 +16,8 @@ export function footerSection() {
     </div>
   `;
   
-  if (footerSection) {
-    footerSection.innerHTML = footerSectionStructure;
+  footerSection.innerHTML = footerSectionStructure;
 
-    let year = new Date();
-    document.querySelector('#year').textContent = year.getFullYear();
-  }
+  const year = new Date();
+  document.querySelector('#year').textContent = year.getFullYear();
 }

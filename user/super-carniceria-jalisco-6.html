@@ -9,14 +9,15 @@
   <section id="footer-section"></section>
 
   <script type="module">
-    const title = 'Systems & Architecture';
-    const link = 'systems-and-architecture';
+    const title = 'Super Carniceria Jalisco 6';
+    const link = 'super-carniceria-jalisco-6';
+    const sheetName = 'jalisco-6';
     import {head} from '../assets/js/head.js';
     head('Links for'+' '+title);
     import {header} from '../assets/js/header.js';
     header(title, link);
-    import {links} from '../assets/js/links.js';
-    links('..', 'systems');
+    import {linksSheet} from '../assets/js/links-sheet.js';
+    linksSheet(sheetName);
     import {footerSection} from '../assets/js/footer-section.js';
     footerSection();
   </script>

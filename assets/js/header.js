@@ -1,15 +1,15 @@
-export function header(title, link) {
+export function header(headerTitle, headerLink) {
 
-  let header = document.querySelector('header');
+  const header = document.querySelector('header');
 
-  let headerStructure = `
+  const headerStructure = `
     <nav class="navbar navbar-top">
       <div class="container">
         <div class="row">
           <div class="nav">
             <div class="navbar-header">
-              <a href="./${link}.html" class="navbar-brand">
-                <h1 class="navbar-title"></h1>
+              <a href="./${headerLink}.html" class="navbar-brand">
+                <h1 class="navbar-title">${headerTitle}</h1>
               </a>
             </div>
           </div>
@@ -18,12 +18,5 @@ export function header(title, link) {
     </nav>
   `;
 
-  if (header) {
-
-    header.innerHTML = headerStructure;
-
-    let navbarTitle = title;
-    
-    document.querySelector('.navbar-title').textContent = navbarTitle;
-  }
+  header.innerHTML = headerStructure;
 }

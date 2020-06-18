@@ -1,7 +1,6 @@
 <!doctype html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
-<head>
-</head>
+<html lang="en">
+<head></head>
 <body>
   <header></header>
     
@@ -10,13 +9,15 @@
   <section id="footer-section"></section>
 
   <script type="module">
+    const title = 'Sergio Y Perez';
+    const link = 'yahir-perez';
     import {head} from '../assets/js/head.js';
+    head('Links for'+' '+title);
     import {header} from '../assets/js/header.js';
+    header(title, link);
     import {links} from '../assets/js/links.js';
-    import {footerSection} from '../assets/js/footer-section.js';
-    document.head.innerHTML = head;
-    header('Sergio Y Perez', 'yahir-perez');
     links('..', 'sergioy');
+    import {footerSection} from '../assets/js/footer-section.js';
     footerSection();
   </script>
 </body>

@@ -28,24 +28,9 @@
         "url": "https://messenger.com/"
       },
       {
-        "name": "Skype",
-        "image": "skype",
-        "url": "https://web.skype.com/"
-      },
-      {
         "name": "Whatsapp",
         "image": "whatsapp",
         "url": "https://web.whatsapp.com/"
-      }
-    ]
-  },
-  {
-    "category": "education",
-    "items": [
-      {
-        "name": "edX",
-        "image": "edx",
-        "url": "https://edx.org/"
       }
     ]
   },
@@ -76,6 +61,16 @@
         "name": "Netflix",
         "image": "netflix",
         "url": "https://netflix.com/"
+      },
+      {
+        "name": "Prime Video",
+        "image": "amazon-prime-video",
+        "url": "https://primevideo.com/"
+      },
+      {
+        "name": "Sling",
+        "image": "sling",
+        "url": "https://watch.sling.com/"
       },
       {
         "name": "Tubi",
@@ -171,11 +166,6 @@
         "name": "Google",
         "image": "google",
         "url": "https://google.com/"
-      },
-      {
-        "name": "Yahoo",
-        "image": "yahoo",
-        "url": "https://yahoo.com/"
       }
     ]
   },
@@ -206,6 +196,11 @@
         "name": "Instagram",
         "image": "instagram",
         "url": "https://instagram.com/"
+      },
+      {
+        "name": "Twitter",
+        "image": "twitter",
+        "url": "https://twitter.com/"
       }
     ]
   },
