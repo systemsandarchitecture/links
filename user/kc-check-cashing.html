@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head></head>
+<body>
+  <header></header>
+    
+  <section class="basic-page" id="links"></section>
+
+  <section id="footer-section"></section>
+
+  <script type="module">
+    const title = 'K&C Check Cashing';
+    const link = 'kc-check-cashing';
+    const sheetName = 'kc-check-cashing';
+    import {head} from '../assets/js/head.js';
+    head('Links for'+' '+title);
+    import {header} from '../assets/js/header.js';
+    header(title, link);
+    import {linksSheet} from '../assets/js/links-sheet.js';
+    linksSheet(sheetName);
+    import {footerSection} from '../assets/js/footer-section.js';
+    footerSection();
+  </script>
+</body>
+</html>
