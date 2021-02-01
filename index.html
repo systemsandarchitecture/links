@@ -81,23 +81,23 @@
   <!-- scripts -->
   <script type="module">
     const title = "Links";
-    const link = "links";
+    const link = "index";
     const sheetName = "links";
-    import {header} from '../assets/js/header.js';
+    import {header} from './assets/js/header.js';
     header(title, link);
-    import {linksSheet} from '../assets/js/links-sheet.js';
+    import {linksSheet} from './assets/js/links-sheet.js';
     linksSheet(sheetName);
-    import {footerSection} from '../assets/js/footer-section.js';
+    import {footerSection} from './assets/js/footer-section.js';
     footerSection();
   </script>
   <!-- service worker -->
-  <script>
+  <!-- <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js');
       });
     }
-  </script>
+  </script> -->
   <!-- basic -->
   <!-- custom scripts -->
 </body>
