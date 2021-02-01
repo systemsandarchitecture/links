@@ -1,4 +1,4 @@
-export function linksSheet(sheetName) {
+export function linksSheet(sheetName, position) {
 
   const links = document.querySelector('#links');
 
@@ -39,7 +39,7 @@ export function linksSheet(sheetName) {
       let linksItem = `
         <div class="item">
           <a href="${linkUrl}" target="_blank" rel="noopener">
-            <img src="../assets/images/${linkCategory}/${linkImage}.png" alt="${linkName}" class="item-image">
+            <img src="${position}/assets/images/${linkCategory}/${linkImage}.png" alt="${linkName}" class="item-image">
             <p class="item-name">${linkName}</p>
           </a>
         </div>
