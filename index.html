@@ -80,11 +80,14 @@
 
   <!-- scripts -->
   <script type="module">
-    import {header} from './assets/js/header.js';
-    import {links} from './assets/js/links.js';
-    import {footerSection} from './assets/js/footer-section.js';
-    header('Links', 'index');
-    links('.', 'links');
+    const title = "Links";
+    const link = "links";
+    const sheetName = "links";
+    import {header} from '../assets/js/header.js';
+    header(title, link);
+    import {linksSheet} from '../assets/js/links-sheet.js';
+    linksSheet(sheetName);
+    import {footerSection} from '../assets/js/footer-section.js';
     footerSection();
   </script>
   <!-- service worker -->
