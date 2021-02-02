@@ -17,7 +17,7 @@ export function linksSheet(path, sheetName) {
   const linksClass = document.querySelector('.links');
 
   function getLinks() {
-    fetch('https://sheets.googleapis.com/v4/spreadsheets/1kXTa7e-cuSFU40LlEwHXFNv0WwQ_MgoJcGUinwODE6k/values/'+sheetName+'!A2:D40?key=AIzaSyALvpA28EbrTmVVOIYCus1pvM4Ye3kj4mI')
+    fetch('https://sheets.googleapis.com/v4/spreadsheets/1kXTa7e-cuSFU40LlEwHXFNv0WwQ_MgoJcGUinwODE6k/values/'+sheetName+'!A2:D41?key=AIzaSyALvpA28EbrTmVVOIYCus1pvM4Ye3kj4mI')
     .then((response) => { return response.json(); })
     .then((data) => { displayLinks(data); });
   }

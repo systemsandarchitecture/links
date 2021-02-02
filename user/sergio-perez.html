@@ -11,12 +11,13 @@
   <script type="module">
     const title = 'Sergio D Perez';
     const link = 'sergio-perez';
+    const sheetName = 'sergio-perez';
     import {head} from '../assets/js/head.js';
     head('Links for'+' '+title);
     import {header} from '../assets/js/header.js';
     header(title, link);
-    import {links} from '../assets/js/links.js';
-    links('..', 'sergiod');
+    import {linksSheet} from '../assets/js/links-sheet.js';
+    linksSheet('..', sheetName);
     import {footerSection} from '../assets/js/footer-section.js';
     footerSection();
   </script>
