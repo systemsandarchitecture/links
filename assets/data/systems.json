@@ -140,22 +140,22 @@
       {
         "name": "Systems",
         "image": "systems-and-architecture",
-        "url": "https://systems-and-architecture.com/"
+        "url": "https://systemsandarchitecture.com/"
       },
       {
         "name": "Gateway",
         "image": "netgear",
-        "url": "http://192.168.1.100/"
+        "url": "http://192.168.1.1/"
       },
       {
         "name": "Production",
         "image": "systems-and-architecture",
-        "url": "http://192.168.1.102/"
+        "url": "http://192.168.1.100/"
       },
       {
         "name": "Webpack",
         "image": "webpack",
-        "url": "http://192.168.1.102:3000/"
+        "url": "http://192.168.1.100:3000/"
       },
       {
         "name": "SrgdppSrvr",
