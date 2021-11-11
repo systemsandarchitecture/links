@@ -11,12 +11,13 @@
   <script type="module">
     const title = 'Cuba Natural Medicine';
     const link = 'cuba-natural-medicine';
+    const sheetName = 'cuba-natural-medicine';
     import {head} from '../assets/js/head.js';
     head('Links for'+' '+title);
     import {header} from '../assets/js/header.js';
     header(title, link);
-    import {links} from '../assets/js/links.js';
-    links('..', 'cuba');
+    import {linksSheet} from '../assets/js/links-sheet.js';
+    linksSheet('..', sheetName);
     import {footerSection} from '../assets/js/footer-section.js';
     footerSection();
   </script>
