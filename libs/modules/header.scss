@@ -4,8 +4,10 @@
   @include box-shadow-bottom();
   .navbar-title {
     color: $secondary-color;
+    font-family: $secondary-font;
     font-size: 22px;
     font-weight: 900;
+    text-transform: uppercase;
     @include small-phone {
       font-size: 20px;
     }

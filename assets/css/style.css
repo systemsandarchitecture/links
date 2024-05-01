@@ -7,7 +7,8 @@
   --tertiary-color: #2b347f;
   --white: #fff;
   --black: #000;
-  --primary-font: 'Roboto Condensed', 'sans-serif'; }
+  --primary-font: 'Roboto Condensed', 'sans-serif';
+  --secondary-font: "Raleway", sans-serif; }
 
 html {
   scroll-behavior: smooth; }
@@ -38,8 +39,10 @@ a {
   -moz-box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12); }
   .navbar .navbar-title {
     color: var(--secondary-color);
+    font-family: var(--secondary-font);
     font-size: 22px;
-    font-weight: 900; }
+    font-weight: 900;
+    text-transform: uppercase; }
     @media screen and (max-width: 374px) {
       .navbar .navbar-title {
         font-size: 20px; } }
