@@ -1,7 +1,26 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #001848;
+  --tertiary-color: #2b347f;
+  --white: #fff;
+  --black: #000;
+  --primary-font: 'Roboto Condensed', 'sans-serif';
+}
+html {
+  scroll-behavior: smooth;
+}
 html, body {
+  color: $secondary-color;
   font-family: $primary-font;
   font-size: 18px;
   font-weight: 200;
+}
+a {
+  font-weight: 200;
+  transition: all .4s;
+  @include link() {
+    font-weight: 900;
+  }
 }
 .content {
   padding: 0 12px;

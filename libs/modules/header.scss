@@ -3,7 +3,7 @@
   border-bottom: none;
   @include box-shadow-bottom();
   .navbar-title {
-    color: $white;
+    color: $secondary-color;
     font-size: 22px;
     font-weight: 900;
     @include small-phone {

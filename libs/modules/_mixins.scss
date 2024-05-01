@@ -13,3 +13,8 @@
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
+@mixin link {
+  &:hover, &:focus, &:active {
+    @content;
+  }
+}
